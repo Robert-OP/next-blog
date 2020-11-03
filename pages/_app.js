@@ -4,7 +4,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import withData from "../utils/apollo";
 import "../styles/style.css";
 
-import Nav from "../components/Nav";
+import Nav from "../components/nav";
 
 const App = ({ Component, pageProps, apollo }) => {
   return (

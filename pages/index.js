@@ -1,6 +1,6 @@
 import React from "react";
 import Articles from "../components/Articles";
-import Query from "../components/Query";
+import Query from "../components/query";
 import ARTICLES_QUERY from "../apollo/queries/article/articles";
 
 const Home = () => {

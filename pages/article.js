@@ -6,6 +6,7 @@ import ARTICLE_QUERY from "../apollo/queries/article/article";
 
 const Article = () => {
   const router = useRouter();
+  console.log(router.query);
   return (
     <Query query={ARTICLE_QUERY} id={router.query.id}>
       {({ data: { article } }) => {
