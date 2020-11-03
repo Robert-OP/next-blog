@@ -16,11 +16,14 @@
     "graphql": "^15.4.0",
     "graphql-tag": "^2.11.0",
     "isomorphic-unfetch": "^3.1.0",
+    "moment": "^2.29.1",
     "next": "10.0.0",
     "next-fonts": "^1.4.0",
     "next-with-apollo": "^5.1.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.2",
+    "react-moment": "^1.0.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"
