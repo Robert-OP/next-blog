@@ -1,3 +1,7 @@
+# Next.js blog application
+
+This Next.js blog is intented to connect to the [Strapi CMS backend](https://github.com/Robert-OP/strapi-blog)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
