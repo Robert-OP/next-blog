@@ -1,8 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import "../styles/style.css";
 import { ApolloProvider } from "@apollo/react-hooks";
 import withData from "../utils/apollo";
+import "../styles/style.css";
+
+import Nav from "../components/Nav";
 
 const App = ({ Component, pageProps, apollo }) => {
   return (
@@ -22,6 +24,7 @@ const App = ({ Component, pageProps, apollo }) => {
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js" />
       </Head>
+      <Nav />
       <Component {...pageProps} />
     </ApolloProvider>
   )
